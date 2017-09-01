@@ -1,0 +1,40 @@
+body {
+  font-family: Georgia;
+  font-size: 14px;
+  background-color: #fffffd;
+}
+
+#logo {
+  width:250px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+#vitrine {
+  width: 510px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+ }
+
+@media only screen and (max-width: 500px) {
+    #vitrine {
+      width: 100%;
+    }
+}
+
+
+.paragraphe {
+  width: 85px;
+}
+
+p {
+  margin-bottom: 0px
+}
+
+.footer {
+  font-size: 10px;
+  color: grey;
+  padding-top: 10px;
+}
+.fa-heart {
+  color:red;
+}
